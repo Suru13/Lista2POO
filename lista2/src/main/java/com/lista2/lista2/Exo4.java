@@ -3,6 +3,7 @@ package com.lista2.lista2;
 import java.util.Scanner;
 
 public class Exo4 {
+    
     public static void resolucao4(){
         
         String nome, evento;
@@ -19,15 +20,15 @@ public class Exo4 {
 		idade = scan.nextInt();
        
         if(idade < 16){
-            System.out.println("\t\nvocê tem "+idade+" anos. Você é menor de idade e não pode participar do evento " +evento+"!!!");
+            System.out.println("\t\n "+nome+ " tem "+idade+" anos. Você é menor de idade e não pode participar do evento " +evento+"!!!");
 
         }
         else if (idade >= 16 && idade <=18) {
-            System.out.println("\t\nvocê tem "+idade+" anos. Você é menor de idade mas pode participar do evento com um dos seus responsáveis do evento" +evento+"!!");
+            System.out.println("\t\n "+nome+" tem "+idade+" anos. Você é menor de idade mas pode participar do evento com um dos seus responsáveis do evento" +evento+"!!");
         }
         else {
 
-            System.out.println("\t\nvocê tem "+idade+" anos. Você é maior de idade então pode participar do evento " +evento+"!");
+            System.out.println("\t\n"+nome+" tem "+idade+" anos. Você é maior de idade então pode participar do evento " +evento+"!");
 
         }
         
