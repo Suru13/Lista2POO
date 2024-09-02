@@ -9,7 +9,8 @@ public class Lista2Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Lista2Application.class, args);
 
-		Exo1.resolucao1();
+		//Exo1.resolucao1();
+		Exo2.resolucao2();
 	}
 
 }
