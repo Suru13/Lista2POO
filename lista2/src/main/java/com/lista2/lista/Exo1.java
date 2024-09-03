@@ -1,11 +1,11 @@
 
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
 public class Exo1 {
 
-    public static void resolucao1(){
+    public static void resolucao21(){
         int num,num2;
 		System.out.print("Digite um numéro: ");
 		Scanner scan = new Scanner(System.in);

@@ -1,12 +1,12 @@
 
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
 public class Exo3 {
 
 
-    public static void resolucao3(){
+    public static void resolucao23(){
 
         int escolha;
 

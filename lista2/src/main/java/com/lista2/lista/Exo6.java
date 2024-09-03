@@ -1,10 +1,10 @@
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
 public class Exo6 {
 
-    public static void resolucao6(){
+    public static void resolucao26(){
         
         String nome_aluno,disciplina;
         //double nota1,nota2,nota3,nota4;

@@ -1,12 +1,12 @@
 
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
 
 public class Exo2 {
     
-    public static void resolucao2(){
+    public static void resolucao22(){
         int numero1;
 		int numero2;
 		System.out.print("Digite o numero1: ");

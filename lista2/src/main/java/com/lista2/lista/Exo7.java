@@ -1,10 +1,10 @@
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
 public class Exo7 {
 
-    public static void resolucao7(){
+    public static void resolucao27(){
         int numero1,numero2,valor;
 
         Scanner scan = new Scanner(System.in);

@@ -1,5 +1,5 @@
 
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Exo5 {
     public static final String Login = "Admin1";
     public static final String Senha = "Adm123@";
 
-    public static void resolucao5(){
+    public static void resolucao25(){
         
         String login, senha;
 

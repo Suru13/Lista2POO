@@ -1,10 +1,10 @@
-package com.lista2.lista2;
+package com.lista2.lista;
 
 import java.util.Scanner;
 
 public class Exo4 {
     
-    public static void resolucao4(){
+    public static void resolucao24(){
         
         String nome, evento;
         int idade;
