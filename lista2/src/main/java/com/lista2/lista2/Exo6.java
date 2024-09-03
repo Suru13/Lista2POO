@@ -37,10 +37,10 @@ public class Exo6 {
             }
 
             double nova_media = (maior_nota + nota_recp)/notas.length;
-            System.out.println("\n\tA média do aluno: " +nome_aluno+ " " +disciplina+ " é -> " +(nova_media)+"\n");
+            System.out.println("\n\tA média do aluno: " +nome_aluno+ "na matéria " +disciplina+ " é -> " +(nova_media)+"\n");
         }
         else{
-            System.out.println("\n\tA média do aluno: " +nome_aluno+ " " +disciplina+ " é -> " +(media)+" \n\tAluno aprovado!!!\n");
+            System.out.println("\n\tA média do aluno: " +nome_aluno+ " na matéria " +disciplina+ " é -> " +(media)+" \n\tAluno aprovado!!!\n");
         }
 		
     }
