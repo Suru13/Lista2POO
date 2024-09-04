@@ -12,7 +12,7 @@ public class Lista3Application {
 		   SpringApplication.run(Lista3Application.class, args);
 
        //Exo1.resolucao31();
-       Exo2.resolucao32();
+       Exo3.resolucao33();
 
     }
 
