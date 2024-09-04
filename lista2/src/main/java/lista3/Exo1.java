@@ -20,7 +20,7 @@ public class Exo1 {
 
         if(seg == true){
 
-             System.out.println("\tErro ao digitar um número fora do escopo do segundos!!!\n\tInforme por favor um número entre 1 e 59.");
+             System.out.println("\tErro ao digitar um número fora do escopo dos segundos!!!\n\tInforme por favor um número entre 1 e 59.");
 
         }
         else{
