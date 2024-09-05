@@ -3,6 +3,7 @@ package lista3;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 
 public class Lista3Application {
@@ -16,7 +17,9 @@ public class Lista3Application {
            //Exo3.resolucao33();
           //Exo4.resolucao34();
           //Exo5.resolucao35();
-          Exo6.resolucao36();
+          //Exo6.resolucao36();
+          Exo7.resolucao37();
+    
     }
 
 }
