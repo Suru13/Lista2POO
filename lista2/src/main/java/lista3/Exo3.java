@@ -28,17 +28,25 @@ public class Exo3 {
                 System.out.print("\t"+i);
             }
         }
+        /*
+        tentando uma outra forma
+
+        if(ispar(menor)){
+            for (int i = menor ; i<=mior ; i+=2){
+                System.out.print("\t"+i);
+            }
+        }
+         */
     }
 
     public static boolean ispar(int numero){
 
-        if(numero%2 ==0){
+        if(numero%2 == 0){
             return true;
         }
         else{
             return false;
         }
-
     }
 
 }
