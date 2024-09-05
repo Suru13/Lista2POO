@@ -1,48 +1,54 @@
-
-package com.lista2.lista;
+package lista3;
 
 import java.util.Scanner;
 
 public class Exo5 {
 
+    
     public static final String Login = "Admin1";
     public static final String Senha = "Adm123@";
+    public static final int tentativas_max = 3;
 
-    public static void resolucao25(){
-        
+    public static void resolucao35() {
+
         String login, senha;
-        boolean acesso_liberado =  false;
 
         Scanner scan = new Scanner(System.in);
 
 
-        do {
+        for (int i = 0; i < tentativas_max; i++) {
+
             System.out.print("Digite seu login: ");
             login = scan.nextLine();
             System.out.print("Digite sua senha: ");
             senha = scan.nextLine();
             if((login.equals(Login)) && (senha.equals(Senha))){
 
-                acesso_liberado = true;
-
                 System.out.println("\n\tAcesso com sucesso!!!\n");
 
             }
-            else if ((login.equals(Login))) {
+              else if ((login.equals(Login))) {
 
                 System.out.println("\n\tSenha incorreta!!!\n");
                 
-            } else if (senha.equals(Senha)){
+            } else if (senha.equals(Senha)) {
 
                 System.out.println("\n\tLogin incorreta!!!\n");
-            } else {
+            } else{
+
                 System.out.println("\n\tLogin e senha incorreta!!!\n");
             }
-            
-        } while (acesso_liberado != true);
 
-		
-    
+            if(i==1){
+                System.out.println("\n\tÚltima tentativa, mais um erro e seu acesso será bloqueado!");
+            }
+            if(i==2){
+                System.out.println("\n\tAcesso bloqueado após 3 tentativas!!!");
+            }
+              
+        }
+
+        
     }
 
 }

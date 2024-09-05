@@ -14,7 +14,8 @@ public class Lista3Application {
            //Exo1.resolucao31();
            //Exo2.resolucao32();
            //Exo3.resolucao33();
-           Exo4.resolucao34();
+          //Exo4.resolucao34();
+          Exo5.resolucao35();
 
     }
 
