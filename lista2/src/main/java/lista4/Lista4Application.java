@@ -14,7 +14,8 @@ public abstract class Lista4Application {
 		   SpringApplication.run(Lista4Application.class, args);
 
            //Exo1.resolucao41();
-           Exo2.resolucao42();
+           //Exo2.resolucao42();
+           Exo3.resolucao43();
 
     }
 
