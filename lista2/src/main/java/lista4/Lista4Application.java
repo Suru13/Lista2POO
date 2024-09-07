@@ -15,7 +15,8 @@ public abstract class Lista4Application {
 
            //Exo1.resolucao41();
            //Exo2.resolucao42();
-           Exo3.resolucao43();
+           //Exo3.resolucao43();
+           Exo4.resolucao44();
 
     }
 
